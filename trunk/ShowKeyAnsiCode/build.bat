@@ -1,0 +1,1 @@
+cl skac.c /TC /MD /nologo /Fe"ska.exe" /link /nodefaultlib:msvcrt.lib /entry:main /manifest:no msvcrt6.lib
