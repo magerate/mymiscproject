@@ -7,11 +7,8 @@ int main()
 	while(1)
 	{
 		keyCode=getche();
-		if(keyCode!=0x11)
-		{
-			printf("\tHex=0X%X\tDec=%d\n",keyCode,keyCode);
-		}
-		else
+		printf("\tHex=%x\tDec=%d\n",keyCode,keyCode);
+		if(0x11==keyCode)
 		{
 			return 0;
 		}
